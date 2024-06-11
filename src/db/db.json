@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "19484c1a-8f0b-42eb-8c6f-3b3ff25dbd10",
+    "name": "Kara Durgan",
+    "phone": "(260) 801-2729",
+    "email": "Nelson.Purdy31@yahoo.com",
+    "job": "Customer Program Manager"
+  },
+  {
+    "id": "29053d91-2039-4d59-b57e-f16f3e4fe299",
+    "name": "Devin Parker",
+    "phone": "999-347-5075 x69396",
+    "email": "Jaleel32@yahoo.com",
+    "job": "Lead Directives Liaison"
+  },
+  {
+    "id": "3674ae09-db59-4a9c-bb7c-b7fad08faf57",
+    "name": "Velma Dicki",
+    "phone": "686.348.6581 x63087",
+    "email": "Myles.Hauck22@hotmail.com",
+    "job": "Central Operations Developer"
+  },
+  {
+    "id": "360cc7ab-37cd-4ca2-9929-293f30148cd8",
+    "name": "Ramon Wilkinson",
+    "phone": "(530) 589-8714 x587",
+    "email": "Trevion.Johnson44@gmail.com",
+    "job": "Central Applications Associate"
+  },
+  {
+    "id": "c760f895-b2c8-4e8e-949e-383f2e2fd295",
+    "name": "Julie Graham",
+    "phone": "208.995.3961 x403",
+    "email": "Nyasia_Gutkowski45@yahoo.com",
+    "job": "Principal Infrastructure Associate"
+  },
+  {
+    "id": "dddf88ee-ae84-44eb-a36d-cbf74465cd1b",
+    "name": "Cecil Kreiger II",
+    "phone": "(776) 949-6065 x6080",
+    "email": "Verdie13@yahoo.com",
+    "job": "Regional Program Specialist"
+  }
+]

@@ -1,9 +1,7 @@
-// import { PATH_DB } from '../constants/contacts.js';
-// import fs from 'fs/promises';
-import { getAllContacts } from './getAllContacts.js';
+import { readAllContacts } from '../utils/readAllContacts.js';
 
 export const countContacts = async () => {
-    const contacts = await getAllContacts();
+    const contacts = await readAllContacts();
     const amountOfContacts = contacts.length;
     return amountOfContacts;
 };

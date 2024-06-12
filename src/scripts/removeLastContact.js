@@ -1,9 +1,9 @@
 import { PATH_DB } from '../constants/contacts.js';
-import { getAllContacts } from './getAllContacts.js';
+import { readAllContacts } from '../utils/readAllContacts.js';
 import fs from 'fs/promises';
 
 export const removeLastContact = async () => {
-  const contacts = await getAllContacts();
+  const contacts = await readAllContacts();
 
   if (contacts.length > 0) {
     const lastContactIndex = contacts.length - 1;

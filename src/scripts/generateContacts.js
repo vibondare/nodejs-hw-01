@@ -1,10 +1,10 @@
 import { PATH_DB } from '../constants/contacts.js';
 import { createFakeContact } from '../utils/createFakeContact.js';
 import fs from 'fs/promises';
-import { getAllContacts } from './getAllContacts.js';
+import { readAllContacts } from '../utils/readAllContacts.js';
 
 const generateContacts = async (number) => {
-  const data = await getAllContacts();
+  const data = await readAllContacts();
   for (let i = 0; i < number; i++) {
     data.push(createFakeContact());
   }
